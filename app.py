@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 nimgs = 10
 
-imgBackground=cv2.imread("background.png")
+imgBackground=cv2.imread("bg.jpg")
 
 datetoday = date.today().strftime("%m_%d_%y")
 datetoday2 = date.today().strftime("%d-%B-%Y")
